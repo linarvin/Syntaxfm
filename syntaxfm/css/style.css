@@ -1,0 +1,154 @@
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+}
+
+body {
+    background-color: white;
+}
+header {
+    background-color: black;
+    padding: 16px;
+    text-align: center;
+    /*align-content: center;*/
+}
+nav {
+    width: 100%;
+    height: auto;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.Btn {
+    
+    height: 48px;
+    width: 48px;
+    margin: 8px;
+    border: 0;
+    background-color: black;
+   
+}
+.logo {
+    width: 80%;
+    height: auto;
+
+
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 8px;
+    
+}
+h2 {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: black;
+}
+h4 {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+h5 {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+main {
+    background-color: #F1C15D;
+}
+
+.hosts h2 {
+    padding: 24px;
+}
+.host {
+    background-color: #F1C15D;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+.host--image img{
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-right: 16px;
+    border: 3px solid white;
+}
+.host--text {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+.host--text h3 {
+    margin-bottom: 8px;
+}
+.host--text h4 {
+    margin-bottom: 8px;
+}
+.host--text h5 {
+    margin-bottom: 8px;
+}
+.episodes--section {
+    padding: 24px;
+    background-color: white;
+}
+.episodes--section h2 {
+    margin-top: 8px;
+    padding-bottom: 16px;
+    font-size: 22px;
+}
+.episodes {    
+    border-bottom: 1px solid gray;
+}
+.ep--text h3{
+    margin-bottom: 16px;
+}
+.ep--text h4 {
+    color: grey;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+.ep--text h5 {
+    color: grey;
+    font-weight: normal;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    
+}
+
+.ep--btn {
+    
+    background-color: #F1C15D;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0;
+    display: block;
+    margin-top: 16px;
+    padding: 16px;
+    width: 100%;
+    
+}
+footer {
+    background-color: lightgray;
+    padding: 24px;        
+}
+footer p{
+    font-family: 'Roboto', sans-serif;
+    padding: 4px;
+    margin-bottom: 16px;
+}
